@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frasiergui"
+    android:weightSum="1"
+    android:background="#ffffffff"
+    android:baselineAligned="false">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="arm"
+        android:id="@+id/arm"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:text="Physical Therapy"
+        android:id="@+id/pt"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.21"
+        android:textSize="60dp"
+        android:background="#fffff67c" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emergency_arm"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/emergency"
+        android:background="#ffffffff"
+        android:layout_margin="25dp"/>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calendar"
+        android:id="@+id/calendar"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:text="Open Calendar"
+        android:id="@+id/opencal"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12"
+        android:textSize="50dp"
+        android:background="#ffff777e"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:text="New Calendar Event"
+        android:id="@+id/newcalevent"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:background="#ffff777e"
+        android:layout_margin="25dp"/>
+
+    <ImageButton
+        android:layout_width="384dp"
+        android:layout_height="353dp"
+        android:id="@+id/calendar_emergency"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/emergency2"
+        android:background="#ffffffff"
+        android:layout_margin="25dp"/>
+
+</LinearLayout>

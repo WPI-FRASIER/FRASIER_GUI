@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff">
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:text="Arm Pose 1"
+        android:id="@+id/pose1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#ffd5b6ff" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:text="Arm Pose 2"
+        android:id="@+id/pose2"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#ffd5b6ff" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:text="Arm Pose 3"
+        android:id="@+id/pose3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#ffd5b6ff" />
+
+
+    <ImageButton
+        android:layout_width="384dp"
+        android:layout_height="353dp"
+        android:id="@+id/armcontrol_emergency"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/emergency2"
+        android:layout_marginTop="50dp"
+        android:background="#ffffffff" />
+
+</LinearLayout>

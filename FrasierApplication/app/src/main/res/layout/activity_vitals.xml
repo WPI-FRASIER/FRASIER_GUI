@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vitals"
+        android:id="@+id/games"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Measure your Heart Rate"
+        android:id="@+id/heartrate"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.15"
+        android:textSize="50dp"
+        android:layout_margin="25dp"
+        android:background="#ff52bbff" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:text="Track your Heart Rate"
+        android:id="@+id/myheart"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.19"
+        android:textSize="50dp"
+        android:layout_margin="25dp"
+        android:background="#ff52bbff" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emergency_vitals"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/emergency2"
+        android:background="#ffffffff" />
+</LinearLayout>

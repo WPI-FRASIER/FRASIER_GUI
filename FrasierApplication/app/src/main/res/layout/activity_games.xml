@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#ffffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Games"
+        android:id="@+id/games"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:text="Solitaire"
+        android:id="@+id/solitaire"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:background="#ff75ff7f"
+        android:layout_margin="25dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:text="Skype"
+        android:id="@+id/skype"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"
+        android:layout_margin="25dp"
+        android:background="#ff75ff7f"
+        android:layout_weight="0.16" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emergency_games"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/emergency2"
+        android:background="#ffffffff" />
+</LinearLayout>

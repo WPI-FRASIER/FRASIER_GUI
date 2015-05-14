@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FrasierApplication</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name= "calendar">Calendar</string>
+    <string name= "arm">Arm</string>
+    <string name= "emergency">Emergency</string>
+    <string name= "vitals">Vitals</string>
+    <string name= "MainActivity">MainActivity</string>
+    <string name= "follow">Follow</string>
+    <string name="voice">Voice</string>
+    <string name="list"> list</string>
+    <string name="games"> games</string>
+    <string name="armControl"> armControl</string>
+
+
+</resources>
